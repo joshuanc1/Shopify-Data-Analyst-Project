@@ -3,7 +3,7 @@ SQL project comparing Shopify apps. <br/>
 Dataset: Kaggle <br/>
 Methods: Data Cleansing, Data Visualization, SQL Querying, Statistical Inference <br/>
 Technologies: PostgresSQL, Excel, Tableau <br/>
-Download Data: https://drive.google.com/file/d/1Jh52pxbc5JHmOZRnHrvOwdSoHJf1f8OM/view?usp=drive_link
+Download Data: [https://drive.google.com/file/d/1Jh52pxbc5JHmOZRnHrvOwdSoHJf1f8OM/view?usp=drive_link](https://drive.google.com/drive/folders/1SWPZz0lvMKOtEVFCcl5UpXpPyrKR3mKn?usp=drive_link)
 
 Project Overview:
   SQL project determining which Shopify apps have the best ratings and reviews for each category &amp; pricing plan to determine what models work the best in attracting clients and maintaining a consumer subscription. 
