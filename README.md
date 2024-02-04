@@ -13,7 +13,8 @@ Dataset Description:
 
     
 Schema Design:
-![alt text](![ERD Shopify Relationships pgerd](https://github.com/joshuanc1/Shopify-Data-Analyst-Project/assets/108759536/d61138de-aa0e-47dc-ac5a-cbff2f25a27a))
+![ERD Shopify Relationships pgerd](https://github.com/joshuanc1/Shopify-Data-Analyst-Project/assets/108759536/693cc8fb-d91d-48dc-aadb-19663390bf3f)
+
 
 
 
