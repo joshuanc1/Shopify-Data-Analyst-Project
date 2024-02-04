@@ -1,8 +1,8 @@
 # Shopify-Data-Analyst-Project
-SQL project comparing Shopify apps.
-Dataset: Kaggle
-Methods: Data Cleansing, Data Visualization, SQL Querying, Statistical Inference
-Technologies: PostgresSQL, Excel, Tableau
+SQL project comparing Shopify apps. <br/>
+Dataset: Kaggle <br/>
+Methods: Data Cleansing, Data Visualization, SQL Querying, Statistical Inference <br/>
+Technologies: PostgresSQL, Excel, Tableau <br/>
 Download Data: https://drive.google.com/file/d/1Jh52pxbc5JHmOZRnHrvOwdSoHJf1f8OM/view?usp=drive_link
 
 Project Overview:
