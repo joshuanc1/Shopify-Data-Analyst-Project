@@ -1,0 +1,13 @@
+COPY apps FROM :file_path WITH CSV HEADER; 
+
+
+COPY categories FROM :file_path WITH CSV HEADER;
+
+
+COPY apps_categories FROM :file_path WITH CSV HEADER;
+
+
+COPY pricing_plan FROM :file_path WITH CSV HEADER;
+
+
+COPY reviews FROM :file_path WITH CSV HEADER;
