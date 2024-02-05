@@ -1,6 +1,5 @@
 # Shopify-Data-Analyst-Project
 SQL project comparing Shopify apps. <br/>
-Dataset: Kaggle <br/>
 Methods: Data Cleansing, Data Visualization, SQL Querying, Statistical Inference <br/>
 Technologies: PostgresSQL, Excel, Tableau <br/>
 Download Data: [https://drive.google.com/file/d/1Jh52pxbc5JHmOZRnHrvOwdSoHJf1f8OM/view?usp=drive_link](https://drive.google.com/drive/folders/1SWPZz0lvMKOtEVFCcl5UpXpPyrKR3mKn?usp=drive_link) <br/>
@@ -8,9 +7,6 @@ Download Data: [https://drive.google.com/file/d/1Jh52pxbc5JHmOZRnHrvOwdSoHJf1f8O
 
 Project Overview: <br/>
   SQL project determining which Shopify apps have the best ratings and reviews for each category &amp; pricing plan to determine what models work the best in attracting clients and maintaining a consumer subscription. <br/>
-Dataset Description: <br/>
-  Provide information about the dataset, including its source, structure, and any data cleaning or preprocessing steps you performed.
-
 
     
 Schema Design:
@@ -22,11 +18,20 @@ Instructions: <br/>
   2. Run Table Creation SQL file FROM SQL QUERIES folder <br/>
   3. Run Data importing SQL file FROM SQL QUERIES folder (Replace path file to corresponding data table with your own path file) <br/>
 
-SQL Queries:
-  Explain the purpose of key SQL queries, especially those involved in data analysis. Include comments within your SQL script to describe each major step.
-Data Analysis Results:
-  Summarize the key findings from your data analysis. Use tables, charts, or visualizations if applicable.
-Challenges and Solutions:
+
+Dataset Description: <br/>
+Dataset: Kaggle <br/>
+Cleansing Process: (Excel) <br/>
+  1. UNIQUE rows <br/>
+  2. apps.url  =IF(ISNUMBER(SEARCH("https://apps.shopify.com/",B2)),B2, "Invalid URL")      -- Make sure each url follows the correct url pattern <br/>
+  3. apps.rating Filter out numberic values greater than 5.0 or less than 0.0 <br/>
+  3. review.body =CONCATENATE("""",B2,"""") to prevent '\n' errors during data importing to PgAdmin <br/>
+
+SQL Queries: <br/>
+  Can be found in SQL QUERIES folder <br/>
+Data Analysis Results: <br/>
+  
+Challenges and Solutions: <br/>
   Document any challenges you faced during the project and how you addressed them.
 Performance Optimization:
   If you optimized your queries for performance, explain the steps you took and the impact on query execution time.
