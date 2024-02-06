@@ -31,6 +31,13 @@ SQL Queries: <br/>
   Can be found in SQL QUERIES folder <br/>
 Data Analysis Results: <br/>
   
+  ![Data Results](https://github.com/joshuanc1/Shopify-Data-Analyst-Project/assets/108759536/fef06f58-b3e0-4060-a1f9-4f98c768f332)
+
+  SUMMARY: <br/>
+  The ranking of Shopify apps per category is based on its rating and number of reviews for each specific price point(Free, Basic(<$20.00), Advanced ($20.00 >< $40.00), Premium (> $40.00), One-time-charge (any price)). The Sum of Top 5 in the table above are the number of occurences in which the App appears for its corresponding category for the different price points. For example: "Privy - Pop ups, Email, & SMN" show up three times in the top 5 in the Free, Basic, and Premium pricing category. The table above does not show the specific price categories. The same can be said of other rankings in each category.
+
+  
+  
 Challenges and Solutions: <br/>
   Document any challenges you faced during the project and how you addressed them.
 Performance Optimization:
