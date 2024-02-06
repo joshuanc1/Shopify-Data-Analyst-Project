@@ -54,4 +54,4 @@ Next Steps: <br/>
   4. Another downfall and possible future fix was what the Apps in each category actually provided service wise. For example, there could be a search for certain key words within the description/services that the app provides and return those results to ensure the app has the tools that the user is looking for. <br/>
 
   OVERALL: <br/>
-  The most important thing for me was the start. Finding a dataset that has enough quality information to answer the business question at hand, because if I don't have that, the rest of the project would be hard.
+  The most important thing was the start. Finding a dataset that has enough quality information to answer the business question at hand, because without that information, everything else will become difficult and without direction.
