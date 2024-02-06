@@ -1,4 +1,4 @@
---Find out which apps have a 5 star rating in (selected) category that are also free.
+--Find top 5 apps in each category By rating, reviewcount, at different price points.
 WITH rank_apps AS (
 	SELECT 
 		A.title,
